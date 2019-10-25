@@ -21,7 +21,7 @@ _one bug: the alert Nein! shows up more often than it should. It should only sho
 
 ### Support and contact details
 
-_email me at ike.esquivelpilloud@gmail.com
+_email me at ike.esquivelpilloud@gmail.com_
 
 ### Technologies Used
 
