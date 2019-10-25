@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
-    <script src="js/scripts.js" charset="utf-8"></script>
+    <head>
+      <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+      <script src="js/scripts.js" charset="utf-8"></script>
+    </head>
 
-  </head>
+
+
   <body>
 
-<h1 class="topheader">Welcome to the wild world of programming languages!</h1>
 
 
-<div class="box">Programming is a very large, lucrative and lurxuriant field with many opportunities and pathways. While the prospect of beginning a new career can be daunting, it can be helped by focusing on a specific programming language. </div>
-
-
-<div class="box">The only three programming languages in existence are Rust, Swfit, and Python. Each one is very unique and handles different aspects of coding. All of them are relatively decent.</div>
-
-
-<ul class="well">
-  <li><strong class="languagedescriptor">Python</strong>: Python is a high level, general purpose GUI development language.</li>
-  <li><strong class="languagedescriptor">Rust</strong>: Rust is focused on safety. You get to be a lot more risky with Rust, allowing you to work with more volatile experiments.</li>
-  <li><strong class="languagedescriptor">Swift</strong>: Swift is all about rapid application development for Apple. It is also general purpose but operates differently from Python.</li>
-</ul>
-
-
-<div class=box>Below is a quick form for you to fill out. It will calculate your answers and choose a language that best fits your interests. </div>
+    <h1 class="topheader">Welcome to the wild world of programming languages!</h1>
 
 
 
-<form id="userinterface" action="index.html" method="post">
+    <div class="box">Programming is a very large, lucrative and lurxuriant field with many opportunities and pathways. While the prospect of beginning a new career can be daunting, it can be helped by focusing on a specific programming language. </div>
 
 
-          <div class="inputs">
-          <label for="interests">interests</label>
-          <select id="interests">
-            <option>select</option>
-            <option value="1">"I enjoy experimenting with new things, and desire a program that has decent memory safety features."
-            </option>
-            <option value="2">"I'm new to programming, and like getting things done quickly. I also like programs that are fast at what they do."
-            </option>
-            <option value="3">"I like to develop really intricate and creative programs, and desire a language that's highly compatible."</option>
-          </select>
-          </div>
+
+    <div class="box">The only three programming languages in existence are Rust, Swfit, and Python. Each one is very unique and handles different aspects of coding. All of them are relatively decent.</div>
 
 
-          <div class="inputs">
-          <label for="scenario1">what is your driving philosophy?</label>
-          <select id="scenario1">
-            <option>select</option>
-            <option value="1">"My car has really good insurance, so I drive GTA style."
-            </option>
-            <option value="2">"The speed limit is overrated."
-            </option>
-            <option value="3">"I drive at my own pace, and own a lot of cars."
-            </option>
-          </select>
-          </div>
 
-        <div class="inputs">
+    <ul class="well">
+      <li><strong class="languagedescriptor">Python</strong>: Python is a high level, general purpose GUI development language.</li>
+      <li><strong class="languagedescriptor">Rust</strong>: Rust is focused on safety. You get to be a lot more risky with Rust, allowing you to work with more volatile experiments.</li>
+      <li><strong class="languagedescriptor">Swift</strong>: Swift is all about rapid application development for Apple. It is also general purpose but operates differently from Python.</li>
+    </ul>
+
+
+
+    <div class=box>Below is a quick form for you to fill out. It will calculate your answers and choose a language that best fits your interests. </div>
+
+
+
+    <form id="userinterface" action="index.html" method="post">
+
+
+
+      <div class="inputs">
+        <label for="interests">interests</label>
+        <select id="interests">
+          <option>select</option>
+          <option value="1">"I enjoy experimenting with new things, and desire a program that has decent memory safety features."
+          </option>
+          <option value="2">"I'm new to programming, and like getting things done quickly. I also like programs that are fast at what they do."
+          </option>
+          <option value="3">"I like to develop really intricate and creative programs, and desire a language that's highly compatible."</option>
+        </select>
+      </div>
+
+
+
+      <div class="inputs">
+        <label for="scenario1">what is your driving philosophy?</label>
+        <select id="scenario1">
+          <option>select</option>
+          <option value="1">"My car has really good insurance, so I drive GTA style."
+          </option>
+          <option value="2">"The speed limit is overrated."
+          </option>
+          <option value="3">"I drive at my own pace, and own a lot of cars."
+          </option>
+        </select>
+      </div>
+
+
+
+      <div class="inputs">
         <label for="scenario2">What is your go-to operating system?</label>
         <select id="scenario2">
           <option>select</option>
@@ -71,10 +83,11 @@
           <option value="3">"I like all operating systems equally."
           </option>
         </select>
-        </div>
+      </div>
 
 
-        <div class="inputs">
+
+      <div class="inputs">
         <label for="scenario3">You find an energy drink outside your front door. What do you do?</label>
         <select id="scenario3">
           <option>select</option>
@@ -85,11 +98,11 @@
           <option value="3">"I trade it for additional software parts."
           </option>
         </select>
-        </div>
+      </div>
 
 
 
-        <div class="inputs">
+      <div class="inputs">
         <label for="scenario4">Career goals</label>
         <select id="scenario4">
           <option>select</option>
@@ -99,22 +112,35 @@
           <option value="3">"I'm really interested in a job involving advanced back-end design, and want to be able to make intricate programs."
           </option>
         </select>
-        </div>
+      </div>
 
-          <button type="submit">What language should I go for?</button>
-</form>
 
-<div id="resulta">
-  <p>You should study Rust!</p>
-  <img src="imgs/rust.png" alt="rust logo">
-</div>
-<div id="resultb">
-  <p>You should study Swift!</p>
-  <img src="imgs/swift.png" alt="swift logo">
-</div>
-<div id="resultc">
-  <p>You should study Python!</p>
-  <img src="imgs/python.png" alt="python logo">
-</div>
+
+      <button type="submit">What language should I go for?</button>
+    </form>
+
+
+
+    <div id="resulta">
+      <p>You should study Rust!</p>
+      <img src="imgs/rust.png" alt="rust logo">
+    </div>
+
+
+
+    <div id="resultb">
+      <p>You should study Swift!</p>
+      <img src="imgs/swift.png" alt="swift logo">
+    </div>
+
+
+
+    <div id="resultc">
+      <p>You should study Python!</p>
+      <img src="imgs/python.png" alt="python logo">
+    </div>
+
+
+
   </body>
 </html>
