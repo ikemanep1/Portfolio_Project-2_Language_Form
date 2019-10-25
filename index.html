@@ -30,9 +30,9 @@
 <div class=box>Below is a quick form for you to fill out. It will calculate your answers and choose a language that best fits your interests. </div>
 
 
-<form id="test" action="index.html" method="post">
 
 
+<form id="form1" action="index.html" method="post">
 <select class="form-control" id="question1">
   <option>What is your driving philosophy?</option>
   <option id="rustoption1">"If the speed limit is 50, I go about 30. In the far right lane."</option>
@@ -40,22 +40,34 @@
   <option id="pythonoption1">"I take the middle lane, go at my own pace. Sometimes I sing while driving. And, you know, <em>que sera sera."</em>
   </option>
 </select>
+<button type="submit" id="btn1">Press Enter</button>
+</form>
 
 
+
+<form id="form2" action="index.html" method="post">
 <select class="form-control" id="question2">
   <option>Select the answer that resonates with you the most:</option>
-  <option id="rustoption2">"I really like programming, but I'm concerned about accidentally damaging all my code whenever I try something new. My job requires a great deal of code and I can't risk losing my work all of the sudden."</option>
+  <option id="rustoption2">"I really like programming, but I'm concerned about accidentally damaging all my code whenever I try something new."</option>
   <option id="swiftoption2">"I'm pretty new to the coding scene. I want to make programs but I don't have a lot of time to make them. My job also has strict and speedy deadlines."</option>
   <option id="pythonoption2">"I'm an ambitious fellow. I like to experiment and try new things. My job requires that I take my creativity to the next level."</option>
 </select>
+<button type="submit" name="btn2">Press Enter</button>
+</form>
 
+
+
+<form id="form3" action="index.html" method="post">
 <select class="form-control" id="question3">
   <option>What kind of programs do you like?</option>
   <option id="rustoption3">"I like programs that are, well, bold. Programs that would require vast debugging, and great care to not break, yet result in something truly groundbreaking in the programming industry."</option>
   <option id="swiftoption3">"I like programs that play out like a marathon runner. Programs that can complete very large tasks very quickly. Better yet if they are easy to make."</option>
   <option id="pythonoption3">I like programs that are difficult and time consuming to make. Ones that would require an efficient language that works very well with other languages and applications.""</option>
 </select>
+<button type="submit" id="btn3">Press Enter</button>
+</form>
 
+<form id="form4" action="index.html" method="post">
 <select class="form-control" id="question4">
   <option>What is your OS?</option>
   <option id="rustoption4">"I work with a windows computer. I could work with any other type of computer but I have a windows computer. It's pretty nice."
@@ -63,25 +75,25 @@
   <option id="swiftoption4">"I have a mac. I only use the mac because it fits my scope of work."</option>
   <option id="pythonoption4">"I have multiple computers for all of the operating systems."</option>
 </select>
+<button type="submit" id="btn4">Press Enter</button>
+</form>
 
+
+
+<form id="form5" action="index.html" method="post">
 <select class="form-control" id="question5">
   <option>While out for a stroll, you find an unopened energy drink. Whad do you do?</option>
   <option id="rustoption5">"I ain't touching that. Uh-uh. I don't know where it has been."</option>
   <option id="pythonoption5">"I pick it up and save it for later."</option>
   <option id="swiftoption5">"I pick it up and start chugging."</option>
 </select>
-
-<div id="question5">
-  What is your OS?
-</div>
-
-
-<button type="submit" class="btn btn-success">See your result!</button>
-
+<button type="submit" id="btn4">Press Enter</button>
 </form>
 
+<p class="box"> Once you're confident with the information that you put in, please click the button below.
+</p>
 
-
+<button type="submit" id="btn5">See your result!</button>
 
 <div id="resultA">
   <p>You should study Rust!</p>
