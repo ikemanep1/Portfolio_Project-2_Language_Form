@@ -1,3 +1,32 @@
 body{
 background: radial-gradient(circle, #060679, #950000, #ffff09);
 }
+.topheader{
+  text-align: center;
+  border: 3px solid #ff9900;
+padding: 3px;
+color: #00ec00;
+background-color: #6e6e6e;
+margin-left: 150px;
+margin-right: 150px;
+}
+.box{
+  border: 3px solid #ff9900;
+padding: 3px;
+color: #00ec00;
+background-color: #6e6e6e;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.well{
+  color:#1ae6e6;
+background-color: #6e6e6e;
+border: 3px solid #ff9900;
+padding: 3px;
+}
+.languagedescriptor{
+  color:#ff9393;
+  font-family: sans-serif;
+}
