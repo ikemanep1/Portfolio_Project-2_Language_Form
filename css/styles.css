@@ -56,3 +56,13 @@ padding: 3px;
 color: #00ec00;
 background-color: #003300;
 }
+
+#resultA{
+  display:none;
+}
+#resultB{
+  display:none;
+}
+#resultC{
+  display:none;
+}
