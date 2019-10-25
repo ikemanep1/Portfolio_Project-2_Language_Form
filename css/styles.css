@@ -6,7 +6,7 @@ background: radial-gradient(circle, #060679, #950000, #ffff09);
   border: 3px solid #ff9900;
 padding: 3px;
 color: #00ec00;
-background-color: #6e6e6e;
+background-color: #003300;
 margin-left: 150px;
 margin-right: 150px;
 }
@@ -14,7 +14,7 @@ margin-right: 150px;
   border: 3px solid #ff9900;
 padding: 3px;
 color: #00ec00;
-background-color: #6e6e6e;
+background-color: #003300;
 margin-left: 50px;
 margin-right: 50px;
 margin-top: 25px;
@@ -22,7 +22,7 @@ margin-bottom: 25px;
 }
 .well{
   color:#1ae6e6;
-background-color: #6e6e6e;
+background-color: #003300;
 border: 3px solid #ff9900;
 padding: 3px;
 }
@@ -30,63 +30,27 @@ padding: 3px;
   color:#ff9393;
   font-family: sans-serif;
 }
-.radio1{
-  background-color: #623b04;
-  color:white;
-}
-.radio2{
-  background-color: #623b04;
-  color:white;
-}
-.radio3{
-  background-color: #623b04;
-  color:white;
-}
-.radio4{
-  background-color: #623b04;
-  color:white;
-}
-.radio5{
-  background-color: #623b04;
-  color:white;
-}
-#question1{
-  border: 3px solid #ff9900;
-padding: 3px;
-color: #00ec00;
-background-color: #003300;
-}
-#question2{
-  border: 3px solid #ff9900;
-padding: 3px;
-color: #00ec00;
-background-color: #003300;
-}
-#question3{
-  border: 3px solid #ff9900;
-padding: 3px;
-color: #00ec00;
-background-color: #003300;
-}
-#question4{
-  border: 3px solid #ff9900;
-padding: 3px;
-color: #00ec00;
-background-color: #003300;
-}
-#question5{
-  border: 3px solid #ff9900;
-padding: 3px;
-color: #00ec00;
-background-color: #003300;
-}
 
-#resultA{
+#resulta{
   display:none;
 }
-#resultB{
+#resultb{
   display:none;
 }
-#resultC{
+#resultc{
   display:none;
+}
+.inputs{
+  border: 3px solid #ff9900;
+  color: #00ec00;
+  background-color: #003300;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+button{
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 25px;
 }
