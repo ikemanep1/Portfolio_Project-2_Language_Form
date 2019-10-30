@@ -49,6 +49,9 @@ padding: 3px;
   color: #00ec00;
   background-color: #003300;
 }
+#resultd{
+  display: none;
+}
 img{
   width: 300px;
   height: 300px;

@@ -2,10 +2,10 @@ $(document).ready(function(){
   $("#userinterface").submit(function(event){
     event.preventDefault();
     var interests = parseInt($("select#interests").val());
-    var scenario1 = parseInt($("select#scenario1").val());
-    var scenario2 = parseInt($("select#scenario2").val());
-    var scenario3 = parseInt($("select#scenario3").val());
-    var scenario4 = parseInt($("select#scenario4").val());
+    var scenario1 = parseInt($("select#drivingquestion").val());
+    var scenario2 = parseInt($("select#osquestion").val());
+    var scenario3 = parseInt($("select#energydrinkquestion").val());
+    var scenario4 = parseInt($("select#goals").val());
 
 
 
@@ -14,12 +14,12 @@ $(document).ready(function(){
       $("#resultb").hide();
       $("#resultc").hide();
     }
-    if (interests === 2) {
+    else if (interests === 2) {
       $("#resultb").show();
       $("#resulta").hide();
       $("#resultc").hide();
     }
-    if (interests === 3) {
+    else if (interests === 3) {
       $("#resultc").show();
       $("#resulta").hide();
       $("#resultb").hide();
@@ -27,75 +27,75 @@ $(document).ready(function(){
 
 
 
-    if (scenario1 === 1) {
+    if (drivingquestion === 1) {
       $("#resulta").show();
       $("#resultb").hide();
       $("#resultc").hide();
     }
-    if (scenario1 === 2) {
+    else if (drivingquestion === 2) {
       $("#resultb").show();
       $("#resulta").hide();
       $("#resultc").hide();
     }
-    if (scenario1 === 3) {
+    else if (drivingquestion === 3) {
       $("#resultc").show();
       $("#resulta").hide();
       $("#resultb").hide();
     }
 
 
-    if (scenario2 === 1) {
+    if (osquestion === 1) {
       $("#resulta").show();
       $("#resultb").hide();
       $("#resultc").hide();
     }
-    if (scenario2 === 2) {
+    else if (osquestion === 2) {
       $("#resultb").show();
       $("#resultb").hide();
       $("#resultc").hide();
     }
-    if (scenario2 === 3) {
+    else if (osquestion === 3) {
       $("#resultc").show();
       $("#resulta").hide();
       $("#resultb").hide();
     }
 
 
-    if (scenario3 === 1) {
+    if (energydrinkquestion === 1) {
       $("#resulta").show();
       $("#resultb").hide();
       $("#resultc").hide();
     }
-    if (scenario3 === 2) {
+    else if (energydrinkquestion === 2) {
       $("#resultb").show();
       $("#resulta").hide();
       $("#resultc").hide();
     }
-    if (scenario3 === 3) {
+    else if (energydrinkquestion === 3) {
       $("#resultc").show();
       $("#resulta").hide();
       $("#resultb").hide();
     }
 
 
-    if (scenario4 === 1) {
+    if (goals === 1) {
       $("#resulta").show();
       $("#resultb").hide();
       $("resultc").hide();
     }
-    if (scenario4 === 2) {
+    else if (goals === 2) {
       $("#resultb").show();
       $("#resulta").hide();
       $("#resultc").hide();
     }
-    if (scenario4 === 3) {
+    else if (goals === 3) {
       $("#resultc").show();
       $("#resulta").hide();
       $("#resultb").hide();
     }
 
     else {
-       alert('Nein!');
+       $("#resultd").show();
      }
 
   });
