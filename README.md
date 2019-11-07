@@ -17,7 +17,7 @@ _This application welcomes new programmers to the world of programming. It lists
 
 # Known Bugs
 
-_one bug: the alert Nein! shows up more often than it should. It should only show up when the user leaves an empty prompt._
+_None so far._
 
 ### Support and contact details
 
