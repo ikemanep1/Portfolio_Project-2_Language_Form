@@ -1,20 +1,20 @@
 body{
-background: radial-gradient(circle, #060679, #950000, #ffff09);
+background-color: #2e2e1f;
 }
 .topheader{
   text-align: center;
   border: 3px solid #ff9900;
 padding: 3px;
-color: #00ec00;
-background-color: #003300;
+color: #ffff00;
+background-color:#0f0f0a;
 margin-left: 150px;
 margin-right: 150px;
 }
 .box{
   border: 3px solid #ff9900;
 padding: 3px;
-color: #00ec00;
-background-color: #003300;
+color: #ffff00;
+background-color:#0f0f0a;
 margin-left: 50px;
 margin-right: 50px;
 margin-top: 25px;
@@ -22,7 +22,7 @@ margin-bottom: 25px;
 }
 .well{
   color:#1ae6e6;
-background-color: #003300;
+background-color:#0f0f0a;
 border: 3px solid #ff9900;
 padding: 3px;
 }
@@ -34,20 +34,20 @@ padding: 3px;
 #rust{
   display:none;
   border: 3px solid #ff9900;
-  color: #00ec00;
-  background-color: #003300;
+  color: #ffff00;
+  background-color:#0f0f0a;
 }
 #swift{
   display:none;
   border: 3px solid #ff9900;
-  color: #00ec00;
-  background-color: #003300;
+  color: #ffff00;
+  background-color:#0f0f0a;
 }
 #python{
   display:none;
   border: 3px solid #ff9900;
-  color: #00ec00;
-  background-color: #003300;
+  color: #ffff00;
+  background-color:#0f0f0a;
 }
 #resultd{
   display: none;
@@ -58,8 +58,8 @@ img{
 }
 .inputs{
   border: 3px solid #ff9900;
-  color: #00ec00;
-  background-color: #003300;
+  color: #ffff00;
+  background-color:#0f0f0a;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 25px;

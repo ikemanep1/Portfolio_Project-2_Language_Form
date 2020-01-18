@@ -1,100 +1,103 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-      <meta charset="utf-8">
-      <title></title>
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <link rel="stylesheet" href="css/styles.css">
-      <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
-      <script src="js/scripts.js" charset="utf-8"></script>
-    </head>
-  <body>
-    <h1 class="topheader">Welcome to the wild world of programming languages!</h1>
-    <div class="box">Programming is a very large, lucrative and lurxuriant field with many opportunities and pathways. While the prospect of beginning a new career can be daunting, it can be helped by focusing on a specific programming language. </div>
-    <div class="box">The only three programming languages in existence are Rust, Swfit, and Python. Each one is very unique and handles different aspects of coding. All of them are relatively decent.</div>
-    <ul class="well">
-      <li><strong class="languagedescriptor">Python</strong>: Python is a high level, general purpose GUI development language.</li>
-      <li><strong class="languagedescriptor">Rust</strong>: Rust is focused on safety. You get to be a lot more risky with Rust, allowing you to work with more volatile experiments.</li>
-      <li><strong class="languagedescriptor">Swift</strong>: Swift is all about rapid application development for Apple. It is also general purpose but operates differently from Python.</li>
-    </ul>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+  <script src="js/scripts.js" charset="utf-8"></script>
+</head>
+<body>
+  <h1 class="topheader">Hello world!</h1>
+  <div class="box">
+    <p>The world of computer science is simply massive, with numerous pathways and career opportunities. Programming alone is divided into a series of "languages", each with their own rules of the road, uses, and communities.
+      People who are new to the field of application development should pursue a specific language that they find interesting, useful to them, and/or both. Below is a partial list of programming languages, and a form to determine a good match for new programmers:</p>
+      <br>
+      <ul>
+        <li><strong>JavaScript</strong>: JavaScript is a common programming language that is used primarily to make web pages interactive. JavaScript is extremely easy to learn, and is ready-to-use by all browsers, making setup relatively hassle-free.</li>
+        <br>
+        <li><strong>Ruby</strong>: Ruby is a general purpose, object-oriented, dynamic programming language. The language is highly popular, and is used to host world-renowned websites like Hulu, Github, and Kickstarter. The language is notable for its application testing capabilities.</li>
+        <br>
+        <li><strong>C#</strong>: C# is a combination of the pioneering C, and C++ languages. It is a compiled language, meaning that user-inputted code is converted to be machine-readible for efficiency and speed. C# is popular among videogame development communities.</li>
+      </ul>
+    </div>
     <div class=box>Below is a quick form for you to fill out. It will calculate your answers and choose a language that best fits your interests. </div>
-
     <form id="userinterface" action="index.html" method="post">
-
       <div class="inputs">
-        <label for="interests">interests</label>
-        <select id="interests">
+        <label for="experience">How experienced are you in programming?</label>
+        <select id="experience">
           <option>select</option>
-          <option value="1">"I enjoy experimenting with new things, and desire a program that has decent memory safety features."
-          </option>
-          <option value="2">"I'm new to programming, and like getting things done quickly. I also like programs that are fast at what they do."
-          </option>
-          <option value="3">"I like to develop really intricate and creative programs, and desire a language that's highly compatible."</option>
+          <option value="1">"I am very new, only a few weeks, maybe even less."</option>
+          <option value="2">"I have some experience as a programmer, less than a year."</option>
+          <option value="3">"I have more than a year of experience in programming."</option>
         </select>
       </div>
       <div class="inputs">
-        <label for="drivingquestion">what is your driving philosophy?</label>
-        <select id="drivingquestion">
+        <label for="interests">What do you want to do in application development?</label>
+        <select id="interests">
           <option>select</option>
-          <option value="1">"My car has really good insurance, so I drive GTA style."
-          </option>
-          <option value="2">"The speed limit is overrated."
-          </option>
-          <option value="3">"I drive at my own pace, and own a lot of cars."
-          </option>
+          <option value="1">"I want to develop aesthetically pleasing websites with some back-end functionality to make them dynamic and cool."</option>
+          <option value="2">"I want to develop intricate, useful back-end focused applications that serve important purposes for clientele."</option>
+          <option value="3">"I want to make games, and experiment with programming ideas that might not develop smoothly in some languages."</option>
         </select>
       </div>
       <div class="inputs">
         <label for="osquestion">What is your go-to operating system?</label>
         <select id="osquestion">
           <option>select</option>
-          <option value="1">"Windows, though I don't mind others."
-          </option>
-          <option value="2">"Mac/apple."
-          </option>
-          <option value="3">"I like all operating systems equally."
-          </option>
+          <option value="1">"Windows, though I don't mind others."</option>
+          <option value="2">"Mac/apple."</option>
+          <option value="3">"I like all operating systems equally."</option>
         </select>
       </div>
       <div class="inputs">
-        <label for="energydrinkquestion">You find an energy drink outside your front door. What do you do?</label>
-        <select id="energydrinkquestion">
+        <label for="focuses">Are you interested in pursuing multiple languages?</label>
+        <select id="focuses">
           <option>select</option>
-          <option value="1">"I pick it up and take a few swigs. I have good health insurance so its no big deal. "
-          </option>
-          <option value="2">""I start chugging. It makes me go faster."
-          </option>
-          <option value="3">"I trade it for additional software parts."
-          </option>
+          <option value="1">"Yes. I want to learn something simple and foundational, before moving on. A language that will get my foot in the door."</option>
+          <option value="2">"Yes, but only if it's beneficial to what I already know."</option>
+          <option value="3">"No. I want to master a single language that gives me a ton of options and career paths."</option>
         </select>
       </div>
       <div class="inputs">
         <label for="goals">Career goals</label>
         <select id="goals">
           <option>select</option>
-          <option value="1">"I want a job where I can experiment with volatile code without risking a lot of damage to previous code."</option>
-          <option value="2">"I'm new to the coding scene, and would like to learn how to code really quickly."
-          </option>
-          <option value="3">"I'm really interested in a job involving advanced back-end design, and want to be able to make intricate programs."
-          </option>
+          <option value="1">"I'm new to the coding scene, and would like to learn how to code really quickly."</option>
+          <option value="2">"I want to work as a back-end developer."</option>
+          <option value="3">"I want to find a job that's well paying and high in demand."</option>
         </select>
       </div>
       <button type="submit">What language should I go for?</button>
     </form>
-    <div id="rust">
-      <p>You should study Rust!</p>
-      <img src="imgs/rust.png" alt="rust logo">
+    <div id="JavaScript">
+      <p>You should study JavaScript!</p>
+      <img src="imgs/JavaScript-logo.png" alt="JS logo">
+      <p>JavaScript is great for new programmers. Below are some resources to help get you started:</p>
+      <ul>
+        <li> MDN (Mozilla Developer's Network) has tutorials/guides for JavaScript</li>
+        <li> <a href="jquery.com">Jquery's official site</a> contains resources for jquery, a common tool in JavaScript.</li>
+      </ul>
     </div>
-    <div id="swift">
-      <p>You should study Swift!</p>
-      <img src="imgs/swift.png" alt="swift logo">
+    <div id="ruby">
+      <p>You should study Ruby!</p>
+      <img src="imgs/ruby.png" alt="Ruby logo">
+      <p>Ruby is great for testing. You can find resources for ruby below:</p>
+      <ul>
+        <li><a href="https://www.ruby-lang.org/en/"> Ruby's website</a> contains documentation for Ruby.</li>
+        <li><a href="https://ruby-doc.org/"> Ruby-doc</a> has tutortials for new Ruby users.</li>
+      </ul>
     </div>
-    <div id="python">
-      <p>You should study Python!</p>
-      <img src="imgs/python.png" alt="python logo">
+    <div id="c#">
+      <p>You should study C#!</p>
+      <img src="imgs/c#.png" alt="C# logo">
+      <p>C# is excellent for experienced programmers! You can find resources for C# below:</p>
+      <ul>
+        <li> <a href="https://www.tutorialspoint.com/csharp/"> tutorialspoint</a> has excellent guides for new C# programmers.</li>
+      </ul>
     </div>
     <div id="no-result">
-      <p></p>
     </div>
   </body>
-</html>
+  </html>
