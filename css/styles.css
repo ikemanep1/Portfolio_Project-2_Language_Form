@@ -26,18 +26,24 @@ margin-bottom: 25px;
   border: 3px solid #ff9900;
   color: #ffff00;
   background-color:#0f0f0a;
+  text-align: center;
+  align-items: center;
 }
 #Ruby{
   display:none;
   border: 3px solid #ff9900;
   color: #ffff00;
   background-color:#0f0f0a;
+  text-align: center;
+  align-items: center;
 }
 #Csharp{
   display:none;
   border: 3px solid #ff9900;
   color: #ffff00;
   background-color:#0f0f0a;
+  text-align: center;
+  align-items: center;
 }
 #resultd{
   display: none;
