@@ -20,30 +20,20 @@ margin-right: 50px;
 margin-top: 25px;
 margin-bottom: 25px;
 }
-.well{
-  color:#1ae6e6;
-background-color:#0f0f0a;
-border: 3px solid #ff9900;
-padding: 3px;
-}
-.languagedescriptor{
-  color:#ff9393;
-  font-family: sans-serif;
-}
 
-#rust{
+#JavaScript{
   display:none;
   border: 3px solid #ff9900;
   color: #ffff00;
   background-color:#0f0f0a;
 }
-#swift{
+#Ruby{
   display:none;
   border: 3px solid #ff9900;
   color: #ffff00;
   background-color:#0f0f0a;
 }
-#python{
+#Csharp{
   display:none;
   border: 3px solid #ff9900;
   color: #ffff00;
@@ -64,9 +54,10 @@ img{
   margin-right: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
+  text-align: center;
 }
-button{
-  margin-left: 400px;
-  margin-right: 400px;
-  margin-bottom: 25px;
+#submission {
+  margin-top: 5px;
+text-align: center;
+align-items: center;
 }

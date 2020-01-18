@@ -6,7 +6,7 @@
 
 # Description
 
-_This application welcomes new programmers to the world of programming. It lists three programming languages, Python, Rust, and Swift. It gives a description of each. Then it prompts the user to put in some information before receiving a suggestion on what language they should study first._
+_This application welcomes new programmers to the world of programming. It lists three programming languages, JavaScript, Ruby, and C#. It gives a description of each. Then it prompts the user to put in some information before receiving a suggestion on what language they should study first._
 
 ### Setup/Installation Requirements
 
