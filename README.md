@@ -17,7 +17,7 @@ _This application welcomes new programmers to the world of programming. It lists
 
 # Known Bugs
 
-_None so far._
+__
 
 ### Support and contact details
 
